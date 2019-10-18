@@ -1,0 +1,44 @@
+body{
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+img{
+	max-width: 100%;
+}
+.galeria{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.tarjeta{
+	border: 1px solid black;
+	text-align: center;
+	width: 32%;
+
+}
+  	p{
+  		font-size:  150%;
+  		color: purple;
+  	}
+  	.titulo{
+  		text-align: center;
+  		font-size: 350%;
+  		background-color: hsl(290, 100%, 50%);
+  		margin-top: 0;
+  	}
+  	h2{
+  		text-align: center;
+  		font-size: 200%;
+  		color: green
+  	}
+  	footer{
+  		display:flex;
+  		justify-content: center;
+  		background-color: hsl(165, 60%, 70%);
+  	}
+  	i{
+  		font-size: 3em;
+  		margin: .2em;
+  	}
